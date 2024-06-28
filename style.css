@@ -1,0 +1,42 @@
+body {
+    padding-top: 4.5rem;
+  }
+  
+  .footer {
+    background-color: #f8f9fa;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .carousel-item img {
+    max-height: 400px;
+    object-fit: cover;
+  }
+  
+  .main-content {
+    padding-top: 50px;
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .card-body .btn {
+    align-self: flex-start;
+  }
+  
+  @media (min-width: 768px) {
+    .card-body {
+      flex-direction: row;
+      align-items: center;
+    }
+    .card-body .btn {
+      align-self: center;
+      margin-left: 60px; /* Increased margin */
+      margin-right: -10px; /* Increased margin */
+    }
+  }
+  
